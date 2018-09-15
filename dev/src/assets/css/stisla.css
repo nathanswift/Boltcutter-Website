@@ -18,7 +18,7 @@ html, body {
 	-moz-border-radius: 5px;
 	-o-border-radius: 5px;
 	-ms-border-radius: 5px;
-	background-image: url('../img/spinner.svg');
+	background-image: url('assets/img/spinner.svg');
 	background-size: 100%;
 	width: 80px;
 	height: 80px;
@@ -51,7 +51,7 @@ html, body {
 
 .overlay {
 	background-color: #000;
-	opacity: .85;
+	opacity: .35;
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -165,7 +165,7 @@ html, body {
 }
 
 .navbar.main-navbar .navbar-brand img {
-	width: 100%;
+	width: 75%;
 }
 
 .navbar.main-navbar .nav-link {

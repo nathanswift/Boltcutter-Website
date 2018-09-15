@@ -9,6 +9,7 @@ import { FeaturesComponent } from './features/features.component';
 import { ContactComponent } from './contact/contact.component';
 import { BannerComponent } from './banner/banner.component';
 import { FooterComponent } from './footer/footer.component';
+import { ResturantParallaxComponent } from './resturant-parallax/resturant-parallax.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { FooterComponent } from './footer/footer.component';
     ContactComponent,
     BannerComponent,
     FooterComponent,
+    ResturantParallaxComponent,
   ],
   imports: [
     BrowserModule
