@@ -1,0 +1,7 @@
+#project {
+    width: 100%;
+    position: fixed;
+    display: block;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
