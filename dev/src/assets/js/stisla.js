@@ -11,13 +11,13 @@ $(function() {
 
 	$("[data-bg]").each(function() {
 		let $this = $(this),
-				$bg = $this.attr("data-bg");
+				$bg = $this.attr("[data-bg]");
 
 		$this.css({
 			backgroundImage: 'url('+$bg+')',
-			backgroundPosition: 'center',
+			backgroundPosition: 'right',
 			backgroundAttachment: 'fixed',
-			backgroundSize: 'center'
+			backgroundSize: 'cover',
 		});
 		$this.prepend("<div class='overlay'></div>");
 	});
